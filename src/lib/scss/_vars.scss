@@ -1,0 +1,115 @@
+:root {
+    --baseFontFamily: 'Source Sans Pro', sans-serif, emoji;
+    --monospaceFontFamily: 'Ubuntu Mono', monospace, emoji;
+    --iconFontFamily: 'remixicon';
+
+    --txtPrimaryColor:  #ffffff;
+    --txtHintColor:     #cfcfcf;
+    --txtDisabledColor: #c2c2c2;
+
+    --primaryColor: #ffffff;
+
+    --bodyColor: #121212;
+
+    --baseColor:     #121212;
+    --baseAlt1Color: #424242;
+    --baseAlt2Color: #6e6e6e;
+    --baseAlt3Color: #737373;
+    --baseAlt4Color: #8b8b8b;
+
+    --light-txtPrimaryColor:  #000000;
+    --light-txtHintColor:     #404040;
+    --light-txtDisabledColor: #7e7e7e;
+
+    --light-primaryColor: #000000;
+    --light-bodyColor: #f3f3f3;
+
+    --light-baseColor:     #f3f3f3;
+    --light-baseAlt1Color: #cccccc;
+    --light-baseAlt2Color: #c7c7c7;
+    --light-baseAlt3Color: #b0b0b0;
+    --light-baseAlt4Color: #999999;
+
+    --infoColor:       #5499e8;
+    --infoAltColor:    #cee2f8;
+    --successColor:    #32ad84;
+    --successAltColor: #c4eedc;
+    --dangerColor:     #e34562;
+    --dangerAltColor:  #f8ced6;
+    --warningColor:    #ff944d;
+    --warningAltColor: #ffd4b8;
+
+    --overlayColor:   rgba(53, 71, 104, 0.25);
+    --tooltipColor:   rgba(0, 0, 0, 0.85);
+    --shadowColor:    rgba(0, 0, 0, 0.06);
+
+    --baseFontSize: 18px;
+    --xsFontSize:   16px;
+    --smFontSize:   17px;
+    --lgFontSize:   19px;
+    --xlFontSize:   21px;
+
+    --baseLineHeight: 22px;
+    --smLineHeight:   16px;
+    --lgLineHeight:   24px;
+
+    --inputHeight: 34px;
+
+    --btnHeight:   40px;
+    --xsBtnHeight: 24px;
+    --smBtnHeight: 30px;
+    --lgBtnHeight: 54px;
+
+    --baseSpacing: 30px;
+    --xsSpacing:   15px;
+    --smSpacing:   20px;
+    --lgSpacing:   50px;
+    --xlSpacing:   60px;
+
+    --wrapperWidth:   850px;
+    --smWrapperWidth: 420px;
+    --lgWrapperWidth: 1110px;
+
+    --appSidebarWidth: 75px;
+    --pageSidebarWidth: 220px;
+
+    --baseAnimationSpeed: 150ms;
+    --activeAnimationSpeed: 70ms;
+    --revealAnimationSpeed: 0.7s;
+
+    --baseRadius: 4px;
+    --lgRadius:   12px;
+    --btnRadius:  4px;
+
+    // https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color
+    accent-color: var(--primaryColor);
+}
+
+// Maps
+// ----
+$colorsMap: (
+    "primary":     var(--primaryColor),
+    "info":        var(--infoColor),
+    "info-alt":    var(--infoAltColor),
+    "success":     var(--successColor),
+    "success-alt": var(--successAltColor),
+    "danger":      var(--dangerColor),
+    "danger-alt":  var(--dangerAltColor),
+    "warning":     var(--warningColor),
+    "warning-alt": var(--warningAltColor),
+);
+
+$sidesMap: (
+    "t": "top",
+    "r": "right",
+    "b": "bottom",
+    "l": "left",
+);
+
+$sizesMap: (
+  "base": var(--baseSpacing),
+  "xs":   var(--xsSpacing),
+  "sm":   var(--smSpacing),
+  "lg":   var(--lgSpacing),
+  "xl":   var(--xlSpacing),
+);
