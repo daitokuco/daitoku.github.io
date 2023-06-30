@@ -18,6 +18,7 @@
                 <a href="/about" class="link-item">About Us</a>
                 <a href="/services" class="link-item">Services</a>
                 <a href="/team" class="link-item">Our Team</a>
+                <a href="/privacy" class="link-item">Privacy</a>
             </nav>
 
             <div class="footer-col socials">
