@@ -89,7 +89,6 @@
         <nav class="main-menu">
             <a href="/about" class="btn btn-secondary">About Us</a>
             <a href="/services" class="btn btn-secondary">Services</a>
-            <a href="/team" class="btn btn-secondary">Our Team</a>
             <button type="button" class="btn btn-circle btn-secondary" on:click={toggleMode} title="dark">
                 {#if isDarkMode}
                     <!-- If in dark mode, display the 'Sun' icon -->

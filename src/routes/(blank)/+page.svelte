@@ -136,14 +136,7 @@
         </div>
     
         <hr>
-    
-        <div class="team-preview">
-            <h3>Meet Our Team</h3>
-            <br>
-            <p>Our team is our strength, comprised of dedicated, skilled, and innovative individuals. <a href="/team">Meet the people behind Daitoku</a>.</p>
-            
-        </div>
-        
+      
         <hr>
     
         <div class="contact-us">
