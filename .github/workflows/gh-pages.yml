@@ -41,9 +41,11 @@ jobs:
         uses: actions/configure-pages@v3
         with:
           static_site_generator: "sveltekit"
-      
+
       - name: Build site
-        run: npm run build
+        run: |
+          npm run build
+          echo 'www.daitoku.ca' > build/CNAME
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
